@@ -1,0 +1,27 @@
+{
+  "name": "wei-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travisBremen/wei-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/travisBremen/wei-node/issues"
+  },
+  "homepage": "https://github.com/travisBremen/wei-node#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
